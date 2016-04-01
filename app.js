@@ -8,7 +8,6 @@ $(function(){
       gifObject = response;
       gifUrl = gifObject.data.image_url;
       jGif = "<img src=\"" + gifUrl + "\"alt = \"Random Image\">";
-      console.log(gifObject);
       $("body").append(jGif);
     });
   });
